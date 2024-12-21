@@ -86,7 +86,7 @@ int main(void)
 		printf("\n");
 	}*/
 
-	for (int i = 0;i < 5;i++)
+	/*for (int i = 0;i < 5;i++)
 	{
 		for (int j = i; j < 5-1;j++)
 		{
@@ -97,8 +97,24 @@ int main(void)
 			printf("*");
 		}
 		printf("\n");
-	}
+	}*/
 
+	//building pyramid
+	int floor;
+	printf("floor?");
+	scanf_s("%d", &floor);
+	for (int i = 0;i < floor;i++)
+	{
+		for (int j = i; j < floor - 1;j++)
+		{
+			printf(" ");
+		}
+		for (int k = 0;k < 2*i+1;k++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
 
 
 
