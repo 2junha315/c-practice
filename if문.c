@@ -37,17 +37,31 @@ int main(void)
 		}
 		printf("%d까지 조별 발표 준비\n", i);
 	}*/
-	for (int i = 1;i <= 30;i++)
+	//for (int i = 1;i <= 30;i++)
+	//{
+	//	if (i >= 6 && i <= 10)
+	//	{
+	//		if (i == 7)
+	//		{
+	//			printf("%d번은 결석\n", i);
+	//			continue;
+	//		}
+	//		printf("%d번 학생은 조별 발표 준비\n", i);
+	//	}
+	//}
+
+	//&& ||
+	int a = 10;
+	int b = 10;
+	int c = 12;
+	int d = 13;
+	if (a == b && c == d)
 	{
-		if (i >= 6 && i <= 10)
-		{
-			if (i == 7)
-			{
-				printf("%d번은 결석\n", i);
-				continue;
-			}
-			printf("%d번 학생은 조별 발표 준비\n", i);
-		}
+		printf("a는 b와 같고, c는 d와 같다");
+	}
+	else
+	{
+		printf("값이 서로 다르다");
 	}
 
 
